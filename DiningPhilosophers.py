@@ -94,11 +94,4 @@ Philosopher5.join();
 for x in localLog:
    print(x)
 
-'''
-myLock=threading.Lock(); # makes a lock object
-myLock.acquire(); # block here until I have control 
-# do my thing 
-myLock.release(); # let it go, if other threads are waiting 
-                 # someone will get control
-'''
 
